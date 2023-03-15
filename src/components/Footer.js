@@ -4,21 +4,14 @@ export default function Footer() {
     <footer>
       <menu>
         <li className="img-footer">
-          <img
-            src={require("../assets/footer-logo.png")}
-            alt="Little Lemon logo"
-          ></img>
+          <img src={require("../assets/footer-logo.png")} alt="Little Lemon logo"></img>
         </li>
         <li className="contact">
           <h1 className="footer-header">Navigation</h1>
           <ul className="footer-links">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <a
-              href={require("../assets/menu.webp")}
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={require("../assets/menu.webp")} target="_blank" rel="noreferrer">
               Menu
             </a>
             <Link to="/reservations">Reservations</Link>
@@ -30,17 +23,13 @@ export default function Footer() {
         <li>
           <h1 className="footer-header">Contact</h1>
           <ul className="footer-links">
-            <li>2395 Maldove Way,</li>
-            <li>Chicago Illinois</li>
+            <li>Lucknow, India,</li>
+            <li>India</li>
             <br></br>
-            <li>(629)-243-6827</li>
+            <li>+91 9554808425</li>
             <br></br>
-            <a
-              href="mailto: info@littlelemon.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              info@littlelemon.com
+            <a href="mailto: info@littlelemon.com" target="_blank" rel="noreferrer">
+              web.hasnain@gmail.com
             </a>
           </ul>
         </li>
@@ -48,24 +37,20 @@ export default function Footer() {
           <h1 className="footer-header">Connect</h1>
           <ul className="footer-links">
             <a
-              href="https://www.facebook.com/thelittlelemonshop/"
+              href="https://www.facebook.com/syedhasnainmehadi/"
               target="_blank"
               rel="noreferrer"
             >
               Facebook
             </a>
             <a
-              href="https://www.instagram.com/littlelemonmoon/"
+              href="https://www.instagram.com/syed_hasnain_mehadi/"
               target="_blank"
               rel="noreferrer"
             >
               Instagram
             </a>
-            <a
-              href="https://www.youtube.com/watch?v=3Li-FfypZYE"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="/" target="_blank" rel="noreferrer">
               Join us!
             </a>
           </ul>
